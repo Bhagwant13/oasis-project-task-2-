@@ -1,0 +1,236 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  /* main styling */
+  body{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 28px;
+  }
+   
+  a {
+      color: black;
+      text-decoration: none;
+  }
+    
+  h1,h2,h3{
+      padding-bottom: 20px;
+  }
+  
+  p{
+  margin: 10px 0;
+  }
+  
+  /* utility classes */
+  
+  .conatiner{
+      margin: auto;
+      max-width: 1500px;
+      overflow: auto;
+      padding: 0 20px;
+  }
+  
+  .text-primary{
+      color: coral;
+  }
+  .lead{
+      font-size: 20px;
+  }
+  .btn{
+    text-align: center;
+    /* margin-right: 250px; */
+    border-radius: 10px;
+      display: inline-block;
+      background-color: black;
+      color: whitesmoke;
+      font-size: 22px;
+      padding: 15px;
+      border: none;
+
+  }
+  .btn:hover{
+      background-color: rgb(197, 251, 255);
+      color: black;
+  }
+  .btn-light{
+      background: white;
+      color: black;
+  }
+  .bg-dark{
+      color: rgb(93, 91, 90);
+      background-color: white;
+  }
+  .bg-primary{
+     color: black;
+     background-color: coral;
+  }
+  .clr{
+      clear: both;
+  }
+  /* navbar */
+  #navbar{
+      color: white;
+      background:coral ;
+      overflow: auto;
+  }
+  
+  #navbar  a{
+      color: white;
+      font-size: 20px;
+  }
+  
+  #navbar h1{
+      
+      padding-left: 15px;
+      float:left ;
+      padding-top: 20px;
+  }
+   #navbar ul {
+      list-style: none;
+      float: right;
+      /* display: inline-block; */
+   }
+  
+   #navbar ul li{
+      float: left;
+      /* margin: 20px; */
+   }
+  
+   #navbar ul li a{
+    
+      display: block;
+      padding: 20px;
+      text-align: center;
+   }
+   #navbar ul li a:hover{
+      background-color: rgb(67, 62, 62);
+      color: whitesmoke;
+   }
+  
+   /* showcase */
+   #showcase{
+      
+      background: url('./images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg') no-repeat center center/cover;
+      height: 800px;
+   }
+   #my-img{
+    width: 20%;
+    float: left;
+    margin: 50px 30px;
+    
+   }
+   .showcase-content,.lead{
+    padding: 50px;
+      color: white;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 25px;
+   }
+  
+  .showcase-content h1{
+      font-size: 60px;
+      padding-bottom: 60px;
+  }
+  
+  /* about section image css */
+.imageAboutPage {
+  width: 20%;
+  float: left;
+  padding-left: 20px;
+}
+
+/* ABOUT Page */
+#about{
+  color: aliceblue;
+  height: 600px;
+  background: url('./images/joshua-bartell-6vvIBTvL90A-unsplash.jpg')no-repeat center center/cover;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#about .container-mt-4-pt-4{
+  text-align: center;
+  color: whitesmoke;
+}
+#about .text-center{
+  padding-top: 40px;
+  font-size: 50px;
+  color:beige;
+}
+
+
+#about .col-lg-8,.row-mt-4{
+  text;
+}
+
+/* social media icons styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+  color: #008000;
+}
+.fab {
+  color: #000000;
+}
+/* footer styling */
+#footer {
+  padding: 20px;
+  background-color: #808080;
+  text-align: center;
+}
+
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 50px;
+  font-size: 22px;
+  padding-left: 20px;
+}
+.l-heading, p
+{
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  width: 60%;
+  padding: 10px;
+  border: 2px rgb(71, 47, 47) solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+.btn-2{
+   margin-left: 50%;
+  margin-bottom: 20px; 
+    border-radius: 10px;
+      display: inline-block;
+      background-color: black;
+      color: whitesmoke;
+      font-size: 22px;
+      padding: 15px;
+      border: none;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+
